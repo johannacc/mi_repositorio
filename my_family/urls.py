@@ -18,8 +18,9 @@ from django.urls import path, include
 
 from member.views import create_member
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("create_member/<str:name>/<str:last_name>/<int:age>/<int:birth_date>",create_member),    
+    path("create_member/<str:name>/<str:last_name>/<int:age>/<int:birth_date>", create_member),    
     path("member/", include("member.urls")),   
 ]
