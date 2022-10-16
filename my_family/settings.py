@@ -56,7 +56,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            'C:/Users/German Herrera/Desktop/mvt/my_family/templates/template_member.html'
+            'C:/Users/Sabrina/Desktop/MVT-SabrinaBonanno/my_family/MVT-SabrinaBonanno/template_member.html'
         ],
         'APP_DIRS': True,
         'OPTIONS': {
